@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    background-image: url(../images/email-pattern.png);
+}
+
+div {
+    display: inline-block;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #4aaaa5;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+a {
+    color: #777;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #4aaaa5;
+    text-decoration: none;
+    color: #fff;
+    padding: 2px;
+}
+
+a.active {
+    background-color: #ccc;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+}
+
+.container {
+    padding: 0 10px;
+    width: -webkit-fill-available;
+
+
+}
+
+.header {
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+
+}
+
+.name {
+    background: #4aaaa5;
+    height: 58px;
+
+}
+
+.info {
+    float: right;
+    padding: 20px 0 20px 0;
+    text-align: center;
+
+}
+
+.about,
+.Portfolio,
+.Contact {
+    padding-left: 10px;
+    font-family: arial;
+    font-size: 11px;
+    color: #777;
+}
+
+.midsection {
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+
+
+}
+
+.about-me {
+    padding: 0 0 0 15px;
+
+}
+
+.about-me-text {
+    padding: 10px 0;
+    font-family: arial;
+    font-size: 12px;
+    color: #777;
+    line-height: 2;
+    padding: 0 10px;
+}
+
+.footer {
+    background: #666;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+    border-top: 5px solid #4aaaa5;
+}
+
+.form,
+.portfolio-body {
+    width: 90%;
+    padding: 0 15px 10px 15px;
+    font-family: arial;
+    font-size: 12px;
+    color: #777;
+}
+
+.formname,
+.formemail {
+    font-family: arial;
+    font-size: 11px;
+    color: #777;
+    width: 99.3%;
+
+}
+
+.formmsg {
+    font-family: arial;
+    font-size: 11px;
+    color: #777;
+    width: 99.3%;
+    height: 200px;
+    border: 1px solid #ccc;
+
+}
+
+.formbtn {
+    background: #4aaaa5;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 15px;
+
+}
+
+.card {
+    margin: 20px 20px 20px 0;
+    width: 33.33%;
+    position: relative;
+}
+
+.cardname {
+    bottom: 10px;
+    left: 0;
+    padding: 10px 0;
+    background-color: #4aaaa5;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+
+}
+
+
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
